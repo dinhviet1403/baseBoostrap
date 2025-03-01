@@ -6,51 +6,58 @@
     <title>Document</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
  </head>
  <body>
-      <header class="bg-secondary">
-         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-               <div class="container-fluid">
-                  <a class="navbar-brand" href="#">NetTruyen</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                           <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link active" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link active" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link active">Disabled</a>
-                        </li>
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-target="#dropdown-menu" aria-expanded="false">
-                           Menu
+   <header class="bg-header">
+      <div class="container row">
+         <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">NetTruyen</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Mới nhất</a>
+                     </li>
+                     <!-- Dropdown -->
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            &#9776; Thể Loại
                         </a>
-                        <ul class="dropdown-menu" id="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <li><a class="dropdown-item" href="#">Option 1</a></li>
-                           <li><a class="dropdown-item" href="#">Option 2</a></li>
-                           <li><a class="dropdown-item" href="#">Option 3</a></li>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Cạnh Kỹ</a></li>
+                            <li><a class="dropdown-item" href="#">Dã Sử</a></li>
+                            <li><a class="dropdown-item" href="#">Đô Thị</a></li>
+                            <li><a class="dropdown-item" href="#">Đồng Nhân</a></li>
+                            <li><a class="dropdown-item" href="#">Huyền Huyễn</a></li>
+                            <li><a class="dropdown-item" href="#">Huyền Nghi</a></li>
+                            <li><a class="dropdown-item" href="#">Khoa Huyễn</a></li>
+                            <li><a class="dropdown-item" href="#">Kiếm Hiệp</a></li>
+                            <li><a class="dropdown-item" href="#">Kỳ Ảo</a></li>
+                            <li><a class="dropdown-item" href="#">Light Novel</a></li>
+                            <li><a class="dropdown-item" href="#">Tiên Hiệp</a></li>
+                            <li><a class="dropdown-item" href="#">Võng Du</a></li>
                         </ul>
-                        </li>
-         </div>
-      </header>
-      <main class="container">
-         <h1>Main Content</h1>
-      </main>
-      <footer class="bg-dark text-white text-center p-2">
-            <p class="mt-2">Công ty trách nhiệm hữu hạn @ ....</p>
-      </footer>
-      <!-- Bootstrap 5 JS -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+                    </li>                    
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="container mt-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tìm kiếm...">
+              <button class="btn btn-primary" type="button">🔍</button>
+            </div>
+          </div>          
+      </div>
+   </header>
+   <!-- Bootstrap 5 + Popper.js (bản đầy đủ) -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
  </body>
  </html>
